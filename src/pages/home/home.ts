@@ -22,8 +22,8 @@ export class HomePage {
     console.log('ionViewDidLoad HomePage');
   }
 
-  navigateToSecondPage() {
-    this.navCtrl.push('SecondPage');
+  navigateToAboutPage() {
+    this.navCtrl.push('AboutPage');
   }
 
 }
